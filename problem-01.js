@@ -1,3 +1,14 @@
 function calculateMoney(ticketSale) {
-  // You have to write your code here
+  if (ticketSale <= 0) {
+    return "input should be positive integer number!";
+  }
+  const ticketPrice = 120;
+  const daroanCost = 500;
+  const stuffCost = 8 * 50;
+  const totalCost = daroanCost + stuffCost;
+  let totalTicketSale = ticketSale * ticketPrice;
+  let totalSavings = totalTicketSale - totalCost;
+  return totalSavings;
 }
+const result = calculateMoney(-100);
+console.log(result);
