@@ -1,6 +1,6 @@
 function calculateMoney(ticketSale) {
   if (ticketSale <= 0) {
-    return "input should be positive integer number!";
+    return "Input should be positive integer number!";
   }
   const ticketPrice = 120;
   const daroanCost = 500;
@@ -10,5 +10,5 @@ function calculateMoney(ticketSale) {
   let totalSavings = totalTicketSale - totalCost;
   return totalSavings;
 }
-const result = calculateMoney(-100);
+const result = calculateMoney(1055);
 console.log(result);
