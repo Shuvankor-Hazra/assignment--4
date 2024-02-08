@@ -10,4 +10,4 @@ function deleteInvalids(array) {
   }
   return newArray;
 }
-console.log(deleteInvalids({ num: [1, 2, 3] }));
+console.log(deleteInvalids( {num: [ 1 , 2 , 3 ]}));

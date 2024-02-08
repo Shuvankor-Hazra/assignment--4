@@ -10,5 +10,5 @@ function calculateMoney(ticketSale) {
   let totalSavings = totalTicketSale - totalCost;
   return totalSavings;
 }
-const result = calculateMoney(1055);
+const result = calculateMoney(-130);
 console.log(result);

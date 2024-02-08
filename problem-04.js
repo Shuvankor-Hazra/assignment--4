@@ -17,6 +17,7 @@ function password(obj) {
   return newPassword;
 }
 // const person = { name: "kolimuddin", birthYear: 1999, siteName: "google"};
-const person = { name: "rahat", birthYear: 2002, siteName: "Facebook" };
+// const person = { name: "rahat", birthYear: 2002, siteName: "Facebook" };
+const person = { name: "toky", birthYear: 200, siteName: "Facebook" };
 
 console.log(password(person));

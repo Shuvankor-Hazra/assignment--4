@@ -10,4 +10,4 @@ function checkName(name) {
     return "Bad Name";
   }
 }
-console.log(checkName("Jhankar"));
+console.log(checkName("199"));
