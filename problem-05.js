@@ -17,12 +17,12 @@ function monthlySavings(arr , livingCost) {
     totalMonthlyIncome = monthlyIncome + taxAfterCost;
     totalMonthlySavings = totalMonthlyIncome - livingCost;
     if(totalMonthlySavings < 0){
-        return "earn more";
+        return "earn more"; 
     }
     return totalMonthlySavings;
     }
     // const result =  monthlySavings([1000, 2000, 3000], 5400);
     // const result =  monthlySavings([ 1000 , 2000 , 2500 ] , 5000);
     // const result =  monthlySavings([ 900 , 2700 , 3400] , 10000);
-    const result =  monthlySavings(100, [ 900 , 2700 , 3400]);
+    // const result =  monthlySavings(100, [ 900 , 2700 , 3400]);
     console.log(result);
